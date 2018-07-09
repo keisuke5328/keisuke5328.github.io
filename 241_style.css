@@ -1,0 +1,119 @@
+li{
+    list-style: none;
+}
+header{
+    background-color:rgba(255, 242, 204, 0.5)	;
+    height:65px;
+    width: auto;
+    margin: 0 4px 0 4px;
+}
+.header-left{
+    float:left;
+    margin-left: 30px;
+    color:#404040;
+}
+.header-right{
+    float:right;
+}
+
+
+.header-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float:left;
+}
+
+.header-right li{
+    float:left;
+    padding: 4px 8px;
+    margin-top:30px;
+}
+
+.header-right li a{
+    color:   #ff9a33;
+    display:block;
+    text-decoration: none;
+    border-top: 1px #bfbfbf	 dotted;
+    border-bottom: 1px  #bfbfbf	 dotted;
+    padding: 4px 8px;
+    }
+.header-right li a:hover{
+    background-color: #ffb366	;
+    color:white;
+    opacity:0.8;
+}
+
+.main{
+    background-color: WHITE;
+    margin: 50px auto;
+    font-family: 'Baskerville Old Face' ,Arial, Helvetica, sans-serif;
+    width: 50%;
+    padding-bottom: 100px;
+}
+
+
+.main-top{
+    padding-bottom: 5px;
+}
+.main-top h4{
+    border: hidden;
+    padding-bottom: 0px;
+}
+table{
+    padding-top: 0;
+    margin-top: 0;
+}
+th{
+    text-align: center;
+	font-size:10px;
+}
+td{
+    text-align: center;
+    border: double 3px #e68a00;
+    padding:0;
+    vertical-align: bottom;
+}
+
+.models{
+    float:left;
+    margin: 5% 3%;
+    border: 3px #e68a00 double;
+    padding: 3px;
+}
+.UWAL{
+    float:right;
+    margin: 5% 3%;
+    border: 3px #e68a00 double;
+    padding: 3px;
+}
+.pic{
+    padding:1px 1px;
+    margin: 2% 2%;
+}
+
+h1{
+    color:#e68a00;
+    font-size: 30px;
+}
+h3{
+    color:#e68a00;
+    font-size: 20px;
+    clear: left;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    text-align: center;
+    border-top: solid 1px black;
+}
+h4{
+    font-size:18px;
+    clear:left;
+    margin-bottom: 0;
+    text-align: center;
+    padding-bottom:0;
+}
+p{
+    font-size: 16px;
+    line-height: 1.4;
+}

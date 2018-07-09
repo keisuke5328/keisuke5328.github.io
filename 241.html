@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+    <script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="SHORTCUT ICON" href="favicon.ico">
+
+    <title>Research Experience</title>
+<link rel="stylesheet" type="text/css" href = "research_junior_style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-left">
+    <h2>KT</h2>
+    </div>
+    <div class = "header-right">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="japaneseHome.html">Japanese</a></li>
+            <li><a href="AirplaneQuestons.html">What Airplane Are you?</a></li>
+        </ul>
+</header>
+
+<div class=main>
+    <div class=main-top>
+    <h1>
+        <center>
+        Aircraft Design of Autonomous Aircraft
+        </center>
+    </h1>
+    <h4>
+        <center>
+            March 2016 - June 2016
+        </center>
+    </h4>
+
+    </div>
+    <div class=junior>
+    <h3>
+		Overview
+    </h3>
+    <p>
+        This was a quarter long class in which I designed, constructed, and flew the fixed wing unamnned aerial vehicle as a team of 7. The project goals are different each year,
+		and for this year, it was to complete a certain path in the shortest time (i.e. Drone Race!). The team as a whole designs the airframe, choose an airfoil, 
+		sizes the components, conducts test flights, implements control law, and flies it as fast as possible. 
+		The picture of race path is shown below. 
+    </p>
+	    <h3>
+		Race Path and Rules
+    </h3>
+	    <table style="width:100%">
+        <tr>
+            <td style="width:50%"><img src="./241/racePath.jpg" alt="Position" style="width: 500px; height:500px"></td>
+        </tr>
+        <tr>
+            <th>Picture of Race Path</th>
+    </table>
+	<h5><center>Rules</center></h5>	
+	<p>1.UAV needs to complete 840 degrees turn at each (virtual) pylon<br>
+	2.When turning around the pilon, UAV must stay 5m from the pylon.<br>
+	3.UAV must stay within a certain altitude envelope. (20m-40m or 40m-60m)
+	</p>
+    <h3>My Role</h3>
+    <p>
+       In this project, I was mainly involved in the flight controls engineering though I worked on designing of the airplane and estimation of performance as well.
+	   The class used the Pixhawk for the autopilot which originally has all the necessary code to fly the UAV. However, for academic purpose, the course staff modified
+	   the code and let us implement our own control law and flight algorithms. 
+	   I was responsible for implementing the control law and tuning its gains. In addition to the contorl law implementation, I also implemented the flight algorithm that 
+	   tells the aircraft how to follow the race path. 
+    </p>
+	<h3>Strategy</h3>
+	<p>
+	Through the flight tests, we learned that if we can turn well, we can fly very fast. Initially, we were overshooting because the velocity was too high. 
+	However, if we enter the circle with very low speed, we experienced a significant loss
+	of the altitude. In order to solve this issue, we decided to control the altitude by rudder and adjustment of bank angle. Usually, the rudder is used to
+	control yaw in a level flight. However, when the UAV is turning, the rudder acts as the "elevator". We decided to implement the control law based on this strategy. 
+	</p>
+	<h3>Our UAV</h3>
+		
+		    <table style="width:100%">
+        <tr>
+            <td style="width:50%"><img src="./241/plane.jpg" alt="Position" style="width: 320px; height:240px"></td>
+			<td style="width:50%"><img src="./241/flight.jpg" alt="Position" style="width: 320px; height:240px"></td>
+        </tr>
+        <tr>
+    </table>
+    <h3>Outcome</h3>
+	<p>We won the first place!! The finishing time was 55.7 Seconds.</p>
+    </div>
+			    <table style="width:100%">
+				        <tr>
+            <th>Our Flight path</th>
+		</tr>
+        <tr>
+            <td style="width:50%"><img src="./241/race1.jpg" alt="CameraSystem" style="width: 550px; height:400px"></td>
+        </tr>
+
+    </table>
+</div>

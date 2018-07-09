@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+    <script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="SHORTCUT ICON" href="favicon.ico">
+
+    <title>Controls Lab</title>
+<link rel="stylesheet" type="text/css" href = "controls_Lab_style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-left">
+    <h2>KT</h2>
+    </div>
+    <div class = "header-right">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="japaneseHome.html">Japanese</a></li>
+            <li><a href="AirplaneQuestons.html">What Airplane Are you?</a></li>
+        </ul>
+</header>
+
+<div class=main>
+    <div class=main-top>
+    <h1>
+        <center>
+        Controls Laboratory<br>
+        (AA448 Control Systems Sensors and Actuators)
+        </center>
+    </h1>
+    <h4>
+        <center>
+            January 2015-March 2015
+        </center>
+    </h4>
+    </div>
+    <div class=overview>
+    <h3>
+        Overview
+    </h3>
+    <p>
+        This was a quarter long class in which I conducted some fascinating experiments using different kinds of controllers.
+        According to the <a href="https://www.washington.edu/students/crscat/aa.html">course description</a>,
+        students study control systems components and formulation of their mathematical models. The course includes analysis of
+        hardware such as amplifiers, DC servomotors, magnetic-actuators, accelerometers, potentiometers,
+        shaft encoders and resolvers, proximity sensors, and force transducers.
+    </p>
+    </div>
+    
+    <div class=balls>
+    <h3>
+        Levitation of the Metallic Balls
+    </h3>
+    <p>
+        In this project, as a group, we tried to levitate the metallic balls using an electromagnet. The voltage applied to
+        the electromagnet was controlled by the PID controller and full state controller we developed based on the position senor implemented. 
+    </p>
+    
+    <h4>Using PID Controller</h4>
+    <table style="width:100%">
+        <tr>
+            <td style="width:50%"><img src="./controls/Pos_PID.jpg" alt="Position" style="width: 300px; height:240px"></td>
+            <td style="width:50%"><img src="./controls/Vol_PID.jpg" alt="Voltage" style="width: 300px; height:240px"></td>
+        </tr>
+        <tr>
+            <th>Position of the Ball</th>
+            <th>Voltage Applied</th>
+    </table>
+    <p>
+        The ball was successfully levitated and the video shows two metallic balls floating in the air.
+    </p>
+    <center>
+    <iframe width="640" height="360"
+        src="https://www.youtube.com/embed/4dl25OFkTC8" frameborder="0" allowfullscreen>
+    </iframe>
+    </center>
+    </div>
+    <div class=food>
+    <h3>Food Deliverer</h3>
+    <p>
+        This was the final project for the course. We created a "food deliverer" using DC motor with an arm attached to it.
+        We calculated the trajectory of the food with Newton's law of motion, determined the speed required to deliver the
+        food at a certain distance away from the catapult, and implemented the PID controller to satisfy the performance
+        and safety requirements. I was mainly responsible for designing the controller to achieve the desired velocity at 
+		an angle of 45 degrees from horizontal and to stop the motor before the arm hits the motor. 
+    </p>
+    <iframe width="640" height="360"
+            src="https://www.youtube.com/embed/6ub04Fj4CaY" frameborder="0" allowfullscreen>
+    </iframe>
+    </div>
+</div>
+</body>
+</html>

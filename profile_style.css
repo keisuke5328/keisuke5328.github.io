@@ -1,0 +1,127 @@
+li{
+    list-style: none;
+}
+
+header{
+    background-color:rgba(255, 242, 204, 0.5)	;
+    height:65px;
+    width: auto;
+    margin: 0 4px 0 4px;
+}
+.header-left{
+    float:left;
+    margin-left: 30px;
+    color:#404040;
+}
+.header-right{
+    float:right;
+}
+
+
+.header-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float:left;
+}
+
+.header-right li{
+    float:left;
+    padding: 4px 8px;
+    margin-top:30px;
+}
+
+.header-right li a{
+    color:   #ff9a33;
+    display:block;
+    text-decoration: none;
+    border-top: 1px #bfbfbf	 dotted;
+    border-bottom: 1px  #bfbfbf	 dotted;
+    padding: 4px 8px;
+    }
+.header-right li a:hover{
+    background-color: #ffb366	;
+    color:white;
+    opacity:0.8;
+}
+
+.main{
+    background-color: WHITE;
+    margin: 50px auto;
+    font-family: 'Baskerville Old Face' ,Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin-bottom: 100px;
+}
+.main-top{
+    padding-bottom: 35px;
+    border-bottom: solid 1px #262626
+}
+
+.picture{
+    float:right;
+    margin: 0 10%;
+    border: 3px #e68a00 double;
+    padding: 3px;
+}
+.main-middle p{
+    padding: 10px;
+}
+
+.main-middle h3{
+    text-align: center;
+    margin-top:5%;
+}
+.main-bottom h3{
+    text-align:center;
+    margin-bottom: 8%;
+    clear: left;
+}
+.main-middle p{
+    margin: 5px 10px;
+}
+.main-bottom-text{
+    float:left;
+    text-align: left;
+}
+.main-bottom{
+    width:100%;
+    margin: 10% 0;
+    border-top:solid 1px #262626;
+}
+.main-bottom p{
+    margin:10px 10px;
+    padding-top: 20px;
+}
+h1{
+    color:#e68a00;
+    font-size: 30px;
+}
+h4{
+    color:#262626;
+    font-size: 18px;
+}
+h3{
+    color:#e68a00;
+    font-size: 20px;
+}
+p{
+    font-size: 16px;
+    line-height: 1.4;
+}
+.twitter {
+  background-color: #33CCFF;
+}
+.linkedin{
+    background-color:  #4875B4;
+}
+
+.btn {
+    font-size: 12px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}

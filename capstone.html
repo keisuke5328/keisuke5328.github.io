@@ -1,0 +1,113 @@
+<html>
+<head>
+    <script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="SHORTCUT ICON" href="favicon.ico">
+
+    <title>Capstone Project</title>
+<link rel="stylesheet" type="text/css" href = "capstone_style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-left">
+    <h2>KT</h2>
+    </div>
+    <div class = "header-right">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="japaneseHome.html">Japanese</a></li>
+            <li><a href="AirplaneQuestons.html">What Airplane Are you?</a></li>
+        </ul>
+</header>
+
+<div class=main>
+    <div class=main-top>
+    <h1>
+        <center>
+            Capstone Project
+        </center>
+    </h1>
+    <h4>
+        <center>
+            January 2015 - June 2015
+        </center>
+    </h4>
+    </div>
+    <div class=overview>
+    <h3>Overview</h3>
+    <p>
+        This project was part of the course "AA410 Aircraft Design I" and "AA410 Aircraft Design II".
+        According to the <a href="https://www.washington.edu/students/crscat/aa.html">course description</a>,
+        students estimates the size, selects the configuration, weight and balance, and performance while satisfying the
+        stability, control, and handling qualities requirements</p>
+    <p>
+        In this project, we designed the supersonic R-UAV with tailless configuration, and we built a model of the aircraft. The entire group was consisted of 36
+        undergraduate students, and they were divided into subgroups: Aerodynamics, Construction, Flight Dynamics, Flight Test, Mechanical & Electrical Systems,
+        Propulsion, Structure, and Vehicle Integration. <br>
+    </p>
+    <div class=outcome>
+        <h3>Outcome</h3>
+        <p>
+        The final product of this project is shown below. The one on the left is the final model of the project. The middle is so called "foamy" with which we tested
+        the wiring and electrical components of the UAV before installing them into the actual model. We also constructed the model airplane of P-38 (right) in order to
+        practice manufacturing skills, such as foam cutting, laser cutting, and 3D printing. </p>
+        <div class=pic>
+        <center>
+        <img src="./Capstone/models.jpg" alt="Profile Picture" style="width: 315px; height:180px">
+        </center>
+        </div>
+    </div>
+    <div class=myjob>
+        <h3>My Role</h3>
+    <p>
+		I was involved in the "Flight Dynamics" team and "Mechanical & Electrical Systems" team. In addition to the roles in the specialized teams, I was a documentation
+        manager so I communicated with team leaders to compile a <a href="./Capstone/Final_Report_June_13th.pdf">final report</a> of the course. 
+        In addition to these teams, I participated in wind tunnel testing and the flight tests of the model aircraft. 
+    </p>
+    <p>
+        As a flight dynamics engineer, analyzed the wind tunnel experiment results in order to generate a mathematical model of the UAV. In the process, I 
+		created a matlab program for automating some parts of the data analysis process so that the team did not have to plot everything manually by excel. 
+		In addition, I designed a 
+        controller to stabilize the UAV since the wind tunnel test showed that the UAV did not satisfy the stability requirement with the tailless configuration.
+        MATLAB and Simulink were used for the entire process of constructing the mathematical model and designing the controller.
+    </p>
+		    <table style="width:100%">
+        <tr>
+            <td style="width:50%"><img src="./Capstone/unstable.jpg" alt="Position" style="width: 750px; height:320px"></td>
+        </tr>
+        <tr>
+            <th>Time Response of the System with Initial Conditions in Longitudinal and
+Lateral Directions. (Lateral direction is unstable)</th>
+    </table>
+	<br><br>
+	    <table style="width:100%">
+        <tr>
+            <td style="width:50%"><img src="./Capstone/controller.jpg" alt="Position" style="width: 350px; height:240px"></td>
+            <td style="width:50%"><img src="./Capstone/stable.jpg" alt="Voltage" style="width: 350px; height:240px"></td>
+        </tr>
+        <tr>
+            <th>Damper developed with Simulink</th>
+            <th>Lateral response with damper</th>
+    </table>
+    <p>
+        As a Mechanical & Electrical Systems engineer, I participated in connecting the electric components of the UAV from which I gained the extensive experience of
+        soldering. 
+    </p>
+    
+    <div class=pictures>
+					<h3>Pictures</h3>
+        <table style="width:100%">
+        <tr>
+            <td style="width:50%"><img src="./Capstone/threeModels.jpg" alt="Position" style="width: 350px; height:240px"></td>
+            <td style="width:50%"><img src="./Capstone/UWAL.jpg" alt="Voltage" style="width: 350px; height:240px"></td>
+        </tr>
+        <tr>
+            <th>Three Models</th>
+            <th>Wind Tunnel Experiment</th>
+    </table>
+    </div>
+	<br>

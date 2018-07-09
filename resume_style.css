@@ -1,0 +1,146 @@
+li{
+    list-style: none;
+}
+
+header{
+    background-color:rgba(255, 242, 204, 0.5)	;
+    height:65px;
+    width: auto;
+    margin: 0 4px 0 4px;
+}
+.header-left{
+    float:left;
+    margin-left: 30px;
+    color:#404040;
+}
+.header-right{
+    float:right;
+}
+
+
+.header-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float:left;
+}
+
+.header-right li{
+    float:left;
+    padding: 4px 8px;
+    margin-top:30px;
+}
+
+.header-right li a{
+    color:   #ff9a33;
+    display:block;
+    text-decoration: none;
+    border-top: 1px #bfbfbf	 dotted;
+    border-bottom: 1px  #bfbfbf	 dotted;
+    padding: 4px 8px;
+    }
+.header-right li a:hover{
+    background-color: #ffb366	;
+    color:white;
+    opacity:0.8;
+}
+
+
+.main{
+    background-color: WHITE;
+    margin: 50px auto;
+    font-family: 'Baskerville Old Face' ,Arial, Helvetica, sans-serif;
+    width: 65%;
+    padding-bottom: 100px;
+}
+.main-top{
+    padding-bottom: 35px;
+    border-bottom: solid 1px #262626;
+}
+.main-education{
+    padding-bottom:20px;
+    border-bottom: solid 1px #262626;
+}
+.main-experience{
+    padding-bottom:  20px;
+    border-bottom:  solid 1px #262626;
+}
+.main-experience table tr th a{
+    text-decoration: none;
+    color: MediumBlue;
+}
+.main-experience table tr th a:hover{
+    text-decoration: none;
+    color: MediumBlue;
+    background-color: grey;
+    opacity:0.5;
+}
+
+.skills{
+    width: 95%;
+    margin: auto;
+}
+
+.main-other{
+    padding-bottom:20px;
+    border-bottom: solid 1px #262626;
+    text-align: left;
+    vertical-align: top;
+}
+table{
+    margin-top: 15px;
+}
+
+th, td{
+    text-align: left;
+    vertical-align: top;
+}
+th{
+    text-align: left;
+    padding-top: 5px;
+    font-size: 18px;
+    padding-top: 5px;
+    vertical-align: top;
+}
+td{
+    font-size: 16px;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+h1{
+    color:#e68a00;
+    font-size: 30px;
+}
+h4{
+    color:black;
+    font-size: 20px;
+    border-top: dashed 1px black;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    padding-top: 5px;
+}
+h3{
+    color:#e68a00;
+    font-size: 25px;
+}
+.main-other th, td{
+    margin-bottom: 3px;
+    }
+
+p{
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+
+.btn {
+    font-size: 12px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
